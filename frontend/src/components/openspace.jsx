@@ -39,7 +39,7 @@ export default function Openspace() {
       </div>
 
       <Openspacechat visible={showModal} onClose={() => setShowModal(false)}>
-      <div className=" bg-slate-500 h-4/5 sm:w-3/12  lg:w-auto py-6 relative sm:px-16 px-12 text-slate-100 overflow-hidden flex flex-col justify-between  align-middle rounded-xl">
+      <div className=" bg-slate-500 h-4/5  py-6 relative sm:px-16 px-12 text-slate-100 overflow-hidden flex flex-col justify-between  align-middle rounded-xl">
       {/* gradients */}
       <div className="gradient-01 z-0 absolute"></div>
       <div className="gradient-02 z-0 absolute"></div>
