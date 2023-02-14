@@ -1690,7 +1690,7 @@ function App() {
  
 <Canvas className="background3D" dpr={[1,1]}   camera={{fov: 315 , position :[-0.8 , -0.6, 20] , rotation: [0 , 45 , 45]}} >
 
-            <PresentationControls speed={1} global zoom={0.2} polar={[-1, 0]}>
+            <PresentationControls speed={2} global zoom={0.2} polar={[-1, 0]}>
                 <Stage environment={"sunset"}>
                     <Model scale={5000000} position={[0, 0, 0] }   />
                 </Stage> 
