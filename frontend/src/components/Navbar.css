@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2px;
+   z-index: 3;
+   position: absolute;
+   top: 3%;
+  }
+  
+  .logo {
+    margin: 0;
+    font-family: 'Tourney', cursive;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: rgb(76, 228, 11);
+
+  }
+  
+  .nav {
+    display: flex;
+    list-style: none;
+    margin: 0.1rem;
+    padding: 0.1rem;
+  }
+  
+  .nav-item {
+    margin-right: -10px;
+    font-size: 1.9rem;
+  }
+  .titre{
+    font-family: 'Tourney', cursive;
+   font-size: 2.2rem;
+   color: rgb(67, 225, 0);
+   font-weight: 900;
+}

@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.titre{
+    font-family: 'Tourney', cursive;
+   font-size: 2.2rem;
+   color: rgb(67, 225, 0);
+}
+.inform{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0.9rem;
+    padding: 0.9rem;
+    color: rgb(255, 255, 255);
+}
+.copy{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+}
